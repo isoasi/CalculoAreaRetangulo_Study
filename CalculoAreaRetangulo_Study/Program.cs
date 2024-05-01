@@ -12,10 +12,10 @@ class URI
 
         areaRetangulo = baseRetangulo * altura;
         perimetro = 2 * baseRetangulo + 2 * altura; 
-        //ou 2*(base+altura);
+        //or 2*(baseRetangulo + altura);
 
         diagonal = Math.Sqrt(Math.Pow(baseRetangulo, 2.0) + Math.Pow(altura, 2.0)); 
-        //ou (base*base) + (altura*altura)
+        //or (baseRetangulo * baseRetangulo) + (altura * altura)
 
         Console.WriteLine("Area = " + areaRetangulo.ToString("F4", CultureInfo.InvariantCulture));
         Console.WriteLine("Perimetro = " + perimetro.ToString("F4", CultureInfo.InvariantCulture));
